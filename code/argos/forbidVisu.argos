@@ -1,0 +1,246 @@
+<?xml version="1.0" ?>
+<argos-configuration>
+    <!-- ************* -->
+    <!-- * Framework * -->
+    <!-- ************* -->
+    <framework>
+        <experiment length="120" ticks_per_second="10" random_seed="0"/>
+    </framework>
+
+    <!-- ****************** -->
+    <!-- * Loop functions * -->
+    <!-- ****************** -->
+    <loop_functions library="/home/laurent/AutoMoDe-loopfunctions/build/loop-functions/chocolate/CFA/libchocolate_cfa_loopfunc.so" label="chocolate_cfa_loop_functions">
+        <params dist_radius="1.2" number_robots="20"/>
+        <circle position="0.501,0.493" radius="0.3" color="black"/>
+        <circle position="-0.498,0.492" radius="0.3" color="black"/>
+        <circle position="0,-0.6" radius="0.3" color="black"/>
+        <spawnCircle position="0,0" radius="1.261776"/>
+        <demo id="demo1">
+            <epuck id="Epuck_0" position="0.9126412,-0.5595629"/>
+            <epuck id="Epuck_1" position="0.1355022,-0.01130744"/>
+            <epuck id="Epuck_2" position="-0.03482827,0.9787453"/>
+            <epuck id="Epuck_3" position="-1.088756,0.2228988"/>
+            <epuck id="Epuck_4" position="-0.8279349,-0.5702072"/>
+            <epuck id="Epuck_5" position="1.061682,-0.06453745"/>
+            <epuck id="Epuck_6" position="0.4389065,-0.8789333"/>
+            <epuck id="Epuck_7" position="-0.4393657,-0.1230877"/>
+            <epuck id="Epuck_8" position="-0.5617919,-0.8469968"/>
+            <epuck id="Epuck_9" position="0.5932694,-0.2401907"/>
+            <epuck id="Epuck_10" position="0.9871602,0.3772616"/>
+            <epuck id="Epuck_11" position="0.348417,1.063911"/>
+            <epuck id="Epuck_12" position="-0.01885995,0.4837193"/>
+            <epuck id="Epuck_13" position="-0.9343926,-0.1177633"/>
+            <epuck id="Epuck_14" position="-0.5990522,0.9574541"/>
+            <epuck id="Epuck_15" position="-0.09338043,-1.086528"/>
+            <epuck id="Epuck_16" position="-0.1732228,0.05256728"/>
+            <epuck id="Epuck_17" position="0.8008612,0.01530703"/>
+            <epuck id="Epuck_18" position="0.6358528,-0.6074698"/>
+            <epuck id="Epuck_19" position="-0.6735721,-0.2880948"/>
+        </demo>
+        <demo id="demo2">
+            <epuck id="Epuck_0" position="-0.9503611,-0.5329484"/>
+            <epuck id="Epuck_1" position="-1.110047,0.0472445"/>
+            <epuck id="Epuck_2" position="-0.07208852,1.101171"/>
+            <epuck id="Epuck_3" position="-0.03482827,0.02595294"/>
+            <epuck id="Epuck_4" position="1.013775,0.004661381"/>
+            <epuck id="Epuck_5" position="0.9179633,-0.559562"/>
+            <epuck id="Epuck_6" position="0.5081033,-0.942808"/>
+            <epuck id="Epuck_7" position="0.6411737,-0.341325"/>
+            <epuck id="Epuck_8" position="0.0556606,-1.097172"/>
+            <epuck id="Epuck_9" position="-0.5458237,-0.8682876"/>
+            <epuck id="Epuck_10" position="-0.5458237,-0.3200334"/>
+            <epuck id="Epuck_11" position="0.002431422,0.6327593"/>
+            <epuck id="Epuck_12" position="0.3271263,1.000037"/>
+            <epuck id="Epuck_13" position="0.9286102,0.4730735"/>
+            <epuck id="Epuck_14" position="0.5719787,-0.01130894"/>
+            <epuck id="Epuck_15" position="-0.5351772,0.9787453"/>
+            <epuck id="Epuck_16" position="-0.7747062,-0.0805044"/>
+            <epuck id="Epuck_17" position="0.2792203,-0.1337343"/>
+            <epuck id="Epuck_18" position="-1.030204,0.4198449"/>
+            <epuck id="Epuck_19" position="0.5400413,-0.6234368"/>
+        </demo>
+        <demo id="demo3">
+            <epuck id="Epuck_0" position="-0.3595233,-0.06453692"/>
+            <epuck id="Epuck_1" position="-0.8172892,-0.02727509"/>
+            <epuck id="Epuck_2" position="-0.7534152,-0.5968219"/>
+            <epuck id="Epuck_3" position="-0.4021062,-1.027974"/>
+            <epuck id="Epuck_4" position="1.061681,-0.0698591"/>
+            <epuck id="Epuck_5" position="0.9392546,-0.5595625"/>
+            <epuck id="Epuck_6" position="0.7050496,-0.9002249"/>
+            <epuck id="Epuck_7" position="0.5985921,-0.16567"/>
+            <epuck id="Epuck_8" position="1.082973,0.3985532"/>
+            <epuck id="Epuck_9" position="0.5506869,1.026651"/>
+            <epuck id="Epuck_10" position="0.1727638,1.181014"/>
+            <epuck id="Epuck_11" position="-0.008214394,0.8456742"/>
+            <epuck id="Epuck_12" position="-0.4021063,1.111817"/>
+            <epuck id="Epuck_13" position="-1.110047,0.4464592"/>
+            <epuck id="Epuck_14" position="-1.147307,-0.2614826"/>
+            <epuck id="Epuck_15" position="0.1142116,0.02595291"/>
+            <epuck id="Epuck_16" position="0.124858,-1.129109"/>
+            <epuck id="Epuck_17" position="0.5666553,-0.6127905"/>
+            <epuck id="Epuck_18" position="-0.7108321,-0.36794"/>
+            <epuck id="Epuck_19" position="-0.02950552,0.3506476"/>
+        </demo>
+        <demo id="demo4">
+            <epuck id="Epuck_0" position="1.141524,-0.1017955"/>
+            <epuck id="Epuck_1" position="-0.7001866,-0.9481316"/>
+            <epuck id="Epuck_2" position="-1.195213,-0.2934181"/>
+            <epuck id="Epuck_3" position="-0.3488777,1.159723"/>
+            <epuck id="Epuck_4" position="0.3111572,1.143754"/>
+            <epuck id="Epuck_5" position="0.8700584,-0.81506"/>
+            <epuck id="Epuck_6" position="0.3111577,-1.145078"/>
+            <epuck id="Epuck_7" position="0.731663,-0.3253563"/>
+            <epuck id="Epuck_8" position="-0.3062947,-1.150401"/>
+            <epuck id="Epuck_9" position="-0.6522807,-0.2880966"/>
+            <epuck id="Epuck_10" position="-1.216504,0.3080647"/>
+            <epuck id="Epuck_11" position="-0.1572545,0.03659859"/>
+            <epuck id="Epuck_12" position="0.002430752,0.8243825"/>
+            <epuck id="Epuck_13" position="0.9552243,0.3240332"/>
+            <epuck id="Epuck_14" position="-0.8811635,-0.65005"/>
+            <epuck id="Epuck_15" position="-0.950361,-0.01662791"/>
+            <epuck id="Epuck_16" position="0.3803545,-0.03259894"/>
+            <epuck id="Epuck_17" position="0.534718,-0.7618309"/>
+            <epuck id="Epuck_18" position="0.01307692,0.3825848"/>
+            <epuck id="Epuck_19" position="-0.9876214,0.5954995"/>
+        </demo>
+        <demo id="demo5">
+            <epuck id="Epuck_0" position="-0.002891624,0.01530705"/>
+            <epuck id="Epuck_1" position="1.098942,-0.06453662"/>
+            <epuck id="Epuck_2" position="0.7848917,-0.7086027"/>
+            <epuck id="Epuck_3" position="-0.01885995,1.063911"/>
+            <epuck id="Epuck_4" position="-1.062141,-0.3519707"/>
+            <epuck id="Epuck_5" position="-0.7427695,-0.7618295"/>
+            <epuck id="Epuck_6" position="-0.5724374,-0.1816392"/>
+            <epuck id="Epuck_7" position="-1.15263,0.2441903"/>
+            <epuck id="Epuck_8" position="0.3430944,-1.070557"/>
+            <epuck id="Epuck_9" position="1.07765,0.3719388"/>
+            <epuck id="Epuck_10" position="0.6039153,-0.213577"/>
+            <epuck id="Epuck_11" position="0.9765147,-0.3839079"/>
+            <epuck id="Epuck_12" position="0.007754303,0.568885"/>
+            <epuck id="Epuck_13" position="0.4389064,1.00536"/>
+            <epuck id="Epuck_14" position="-0.4819488,0.9734225"/>
+            <epuck id="Epuck_15" position="-0.8918098,0.009984282"/>
+            <epuck id="Epuck_16" position="-0.2796801,-1.097171"/>
+            <epuck id="Epuck_17" position="-0.6203434,-0.5648839"/>
+            <epuck id="Epuck_18" position="0.3590631,-0.01662962"/>
+            <epuck id="Epuck_19" position="0.8381215,0.04192137"/>
+        </demo>
+    </loop_functions>
+
+    <!-- *************** -->
+    <!-- * Controllers * -->
+    <!-- *************** -->
+    <controllers>
+        <!-- TRANSMITTER -->
+        <automode_controller id="automode_fsm" library="/home/laurent/AutoMoDe/build/src/libautomode.so">
+            <actuators>
+                <epuck_wheels implementation="default" noise_std_dev="0.05"/>
+                <epuck_rgb_leds implementation="default" medium="leds"/>
+                <epuck_range_and_bearing implementation="medium" medium="rab" data_size="4" range="0.7"/>
+            </actuators>
+            <sensors>
+                <epuck_proximity implementation="default" show_rays="false" noise_level="0.05" calibrated="true"/>
+                <epuck_range_and_bearing implementation="medium" medium="rab" data_size="4" nois_std_deviation="1.5" loss_probability="0.85" calibrated="true"/>
+                <epuck_light implementation="default" show_rays="false" noise_level="0.05" calibrated="true"/>
+                <epuck_ground implementation="rot_z_only" noise_level="0.05" calibrated="true"/>
+                <epuck_omnidirectional_camera implementation="rot_z_only" medium="leds" show_rays="false"/>
+            </sensors>
+            <params fsm-config="--nstates 1 --s0 1"/>
+        </automode_controller>
+    </controllers>
+
+    <!-- ********* -->
+    <!-- * Arena * -->
+    <!-- ********* -->
+    <arena size="10, 10, 1" center="0,0,0">
+
+        <!-- Change the floor here -->
+        <floor id="floor" source="loop_functions" pixels_per_meter="300"/>
+        <!-- Change the light here -->
+        <!-- Please note that this light has an intensity equal to 0 -->
+        <!-- and therefore does not affect the experiment. -->
+        <!-- ARGoS requires at least one light when using the light sensor -->
+        <light id="light" position="0,-2.6,0.45" orientation="0,0,0" color="yellow" intensity="0.0" medium="leds"/>
+
+        <!--Dodecagonal arena with side of length 0.66-->
+        <box id="wall_1" size="0.01,0.66,0.08" movable="false">
+            <body position="1.23,0,0" orientation="0,0,0"/>
+        </box>
+        <box id="wall_2" size="0.01,0.66,0.08" movable="false">
+            <body position="0,1.23,0" orientation="90,0,0"/>
+        </box>
+        <box id="wall_3" size="0.01,0.66,0.08" movable="false">
+            <body position="0.615,1.07,0" orientation="60,0,0"/>
+        </box>
+        <box id="wall_4" size="0.01,0.66,0.08" movable="false">
+            <body position="1.07,0.615,0" orientation="30,0,0"/>
+        </box>
+        <box id="wall_5" size="0.01,0.66,0.08" movable="false">
+            <body position="1.07,-0.615,0" orientation="-30,0,0"/>
+        </box>
+        <box id="wall_6" size="0.01,0.66,0.08" movable="false">
+            <body position="0.615,-1.07,0" orientation="-60,0,0"/>
+        </box>
+        <box id="wall_7" size="0.01,0.66,0.08" movable="false">
+            <body position="0,-1.23,0" orientation="90,0,0"/>
+        </box>
+        <box id="wall_8" size="0.01,0.66,0.08" movable="false">
+            <body position="-1.07,-0.615,0" orientation="30,0,0"/>
+        </box>
+        <box id="wall_9" size="0.01,0.66,0.08" movable="false">
+            <body position="-0.615,-1.07,0" orientation="60,0,0"/>
+        </box>
+        <box id="wall_10" size="0.01,0.66,0.08" movable="false">
+            <body position="-1.23,0,0" orientation="0,0,0"/>
+        </box>
+        <box id="wall_11" size="0.01,0.66,0.08" movable="false">
+            <body position="-1.07,0.615,0" orientation="-30,0,0"/>
+        </box>
+        <box id="wall_12" size="0.01,0.66,0.08" movable="false">
+            <body position="-0.615,1.07,0" orientation="-60,0,0"/>
+        </box>
+        <!-- ********** -->
+        <!-- * E-Puck * -->
+        <!-- ********** -->
+
+        <!-- The epucks are distributed by the AutoMoDeLoopFunctions. -->
+        <distribute>
+            <position method="uniform" min="-1,-1,0" max="1,1,0" />
+            <orientation method="gaussian" mean="0,0,0" std_dev="360,0,0" />
+            <entity quantity="20" max_trials="100">
+                <e-puck id="epuck">
+                    <controller config="automode_fsm" />
+                </e-puck>
+            </entity>
+        </distribute>
+    </arena>
+
+    <!-- ******************* -->
+    <!-- * Physics engines * -->
+    <!-- ******************* -->
+    <physics_engines>
+        <dynamics2d id="dyn2d" />
+    </physics_engines>
+
+    <!-- ********* -->
+    <!-- * Media * -->
+    <!-- ********* -->
+    <media>
+        <led id="leds" grid_size="1,1,1"/>
+        <range_and_bearing id="ircom"/>
+        <range_and_bearing id="rab"/>
+    </media>
+
+        <!-- ***************** -->
+    <!-- * Visualization * -->
+    <!-- ***************** -->
+    <visualization>
+      <qt-opengl>
+          <camera>
+              <placement idx="0" position="0,0,4.5" look_at="0,0,0" lens_focal_length="30" />
+          </camera>
+      </qt-opengl>
+    </visualization>
+
+</argos-configuration>
